@@ -1,0 +1,6 @@
+# Binarios en staging (no se versiona, solo se usa para subir al release)
+staging/*
+!staging/.gitkeep
+
+# Archivo de ayuda interno del mantenedor
+AYUDA.md
