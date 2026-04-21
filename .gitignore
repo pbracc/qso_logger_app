@@ -4,3 +4,6 @@ staging/*
 
 # Archivo de ayuda interno del mantenedor
 AYUDA.md
+
+# Token de GitHub (nunca subir)
+.env
