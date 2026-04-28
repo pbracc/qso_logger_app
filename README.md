@@ -1,6 +1,6 @@
 <h1>
-  <img src="assets/qso_logger.png" alt="QSO Logger" height="60" align="left" style="margin-right: 12px;">
-  QSO Logger
+  <img src="assets/open73.png" alt="Open73" height="60" align="left" style="margin-right: 12px;">
+  Open73
 </h1>
 
 &nbsp;
@@ -17,15 +17,15 @@ Aplicación de escritorio para el registro de contactos de radioaficionados (QSO
 
 | Plataforma | Formato | Descarga |
 |------------|---------|----------|
-| 🐧 Linux   | AppImage | [⬇ Descargar](https://github.com/pbracc/qso_logger_app/releases/download/v3.9.4/qso_logger_3.9.4_amd64.AppImage) <!-- LINUX_ASSET --> |
-| 🪟 Windows | Instalador MSI | [⬇ Descargar](https://github.com/pbracc/qso_logger_app/releases/download/v3.9.4/qso_logger_3.9.4_x64_en-US.msi) <!-- WIN_ASSET --> |
+| 🐧 Linux   | AppImage | [⬇ Descargar](https://github.com/pbracc/Open73_app/releases/download/v3.30.0/open73_3.30.0_amd64.AppImage) <!-- LINUX_ASSET --> |
+| 🪟 Windows | Instalador MSI | [⬇ Descargar](https://github.com/pbracc/Open73_app/releases/download/v3.30.0/open73_3.30.0_x64_en-US.msi) <!-- WIN_ASSET --> |
 
 ### Instalación
 
 **Linux**
 ```bash
-chmod +x qso_logger_*.AppImage
-./qso_logger_*.AppImage
+chmod +x open73_*.AppImage
+./open73_*.AppImage
 ```
 
 **Windows**
@@ -46,15 +46,15 @@ Desktop application for amateur radio contact logging (QSOs).
 
 | Platform | Format | Download |
 |----------|--------|----------|
-| 🐧 Linux   | AppImage | [⬇ Download](https://github.com/pbracc/qso_logger_app/releases/download/v3.9.4/qso_logger_3.9.4_amd64.AppImage) <!-- LINUX_ASSET --> |
-| 🪟 Windows | MSI Installer | [⬇ Download](https://github.com/pbracc/qso_logger_app/releases/download/v3.9.4/qso_logger_3.9.4_x64_en-US.msi) <!-- WIN_ASSET --> |
+| 🐧 Linux   | AppImage | [⬇ Download](https://github.com/pbracc/Open73_app/releases/download/v3.30.0/open73_3.30.0_amd64.AppImage) <!-- LINUX_ASSET --> |
+| 🪟 Windows | MSI Installer | [⬇ Download](https://github.com/pbracc/Open73_app/releases/download/v3.30.0/open73_3.30.0_x64_en-US.msi) <!-- WIN_ASSET --> |
 
 ### Installation
 
 **Linux**
 ```bash
-chmod +x qso_logger_*.AppImage
-./qso_logger_*.AppImage
+chmod +x open73_*.AppImage
+./open73_*.AppImage
 ```
 
 **Windows**

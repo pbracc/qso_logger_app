@@ -2,15 +2,15 @@
 set -euo pipefail
 
 # ---------------------------------------------------------------------------
-# release.sh — publica una nueva versión de QSO Logger en GitHub Releases
+# release.sh — publica una nueva versión de Open73 en GitHub Releases
 #
 # Requisitos: git, curl, jq
 #
 # Uso:
 #   1. Editar latest.json con la nueva versión y las notas de release
 #   2. Copiar los binarios a staging/:
-#        staging/qso_logger_X.Y.Z_amd64.AppImage
-#        staging/qso_logger_X.Y.Z_x64_en-US.msi
+#        staging/open73_X.Y.Z_amd64.AppImage
+#        staging/open73_X.Y.Z_x64_en-US.msi
 #   3. Ejecutar:  ./scripts/release.sh
 # ---------------------------------------------------------------------------
 
@@ -139,7 +139,7 @@ RELEASE_RESPONSE=$(curl -sf \
   -H "Content-Type: application/json" \
   -d "{
     \"tag_name\": \"${TAG}\",
-    \"name\": \"QSO Logger ${TAG}\",
+    \"name\": \"Open73 ${TAG}\",
     \"body\": $(echo "$RELEASE_BODY" | jq -Rs .),
     \"draft\": false,
     \"prerelease\": false,
